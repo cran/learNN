@@ -1,0 +1,16 @@
+f597d5f66cf1fe986a02b72da1246753 *DESCRIPTION
+96e29bf574deed9454d342fb97611f71 *NAMESPACE
+3b7e80426e4bf639284a8381976b576d *NEWS
+e1ce7f244c6db4616fd4fd8f292db45a *R/learNN.R
+ab6ac340c4394cd4dcddb6bc08267f1f *R/learn_bp.R
+cec48108d053686d68e8dfc3fbc5eb8e *R/learn_do.R
+d74e0c87b445d974aca085c59829ef0c *R/learn_gd.R
+3de7734937a005a221bfbc615add7507 *README.md
+8e8e6dcdda4ac7c3a4abb5f2a8099bd7 *man/learn_bp.Rd
+123af0d384e88b81d41de0b79e32ddf5 *man/learn_bp11.Rd
+c40d9c93e5de7d686c0944ec0219c09e *man/learn_do15.Rd
+6c9d8f99f810526df17b767270cb16d5 *man/learn_gd.Rd
+b1447b786db12b5d1ae61ee95f85d135 *man/learn_gd13.Rd
+edf15c24dba4a78e8b759ba6ef152b25 *man/learnn.Rd
+66648e657fe68dc6951ca6306f5421c0 *tests/testthat.R
+cdac4f53af822f9e4e602c013372e51d *tests/testthat/test_learn_bp.R
