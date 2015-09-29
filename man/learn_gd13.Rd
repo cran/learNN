@@ -30,5 +30,9 @@ learn_gd13(X, y, alpha, hidden_dim)
 }
 \references{
 \url{http://qua.st/handcoding-gradient-descent/}
+\url{http://iamtrask.github.io/2015/07/27/python-network-part2/}
+}
+\seealso{
+\code{\link{learn_gd}}
 }
 

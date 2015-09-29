@@ -4,14 +4,14 @@
 \alias{learn_gd}
 \title{Learn Gradient Descent}
 \usage{
-learn_gd(X, y, alphas, hiddenSize)
+learn_gd(X, y, alpha, hiddenSize)
 }
 \arguments{
 \item{X}{input data}
 
 \item{y}{output data}
 
-\item{alphas}{vector of alphas to use}
+\item{alpha}{fraction of gradient descent}
 
 \item{hiddenSize}{size of the hidden layer}
 }
@@ -32,15 +32,19 @@ y = matrix(c(0,
              0), nrow=4)
 
 # set parameters
-alphas = c(0.1, 1, 10)
+alpha = 0.1
 hiddenSize = 32
 # also try using:
 # alphas = c(0.001,0.01,0.1,1,10,100,1000)
+# for (alpha in alphas) {
+#   print(paste("Training With Alpha", alpha))
+#   learn_gd(X, y, alpha, hiddenSize)         }
 
 # run gradient descent function
-learn_gd(X, y, alphas, hiddenSize)
+learn_gd(X, y, alpha, hiddenSize)
 }
 \references{
 \url{http://qua.st/handcoding-gradient-descent/}
+\url{http://iamtrask.github.io/2015/07/27/python-network-part2/}
 }
 

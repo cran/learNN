@@ -4,6 +4,8 @@
 #' @param X input data
 #' @param y output data
 #' @importFrom stats runif
+#' @references \url{http://qua.st/handcoding-neural-network/}
+#' \url{http://iamtrask.github.io/2015/07/12/basic-python-network/}
 #' @export
 #' @examples
 #' # create data
@@ -75,6 +77,8 @@ learn_bp <- function(X, y) {
 #' @param y output data
 #' @export
 #' @references \url{http://qua.st/handcoding-neural-network/}
+#' \url{http://iamtrask.github.io/2015/07/12/basic-python-network/}
+#' @seealso \code{\link{learn_bp}}
 #' @examples
 #' # construct new data
 #' X = matrix(c(0,0,1,0,1,1,1,0,1,1,1,1), nrow=4, byrow=TRUE)
@@ -86,7 +90,6 @@ learn_bp <- function(X, y) {
 #' # view output
 #' syn0
 #' syn1
-
 
 learn_bp11 <- function(X, y) {
   syn0 = matrix(runif(n = 12, min=-1, max=1), nrow=3)

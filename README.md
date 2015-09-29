@@ -1,6 +1,8 @@
 learNN
 -------------
+[![License](http://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![CRAN Version](http://www.r-pkg.org/badges/version/learNN)](http://cran.r-project.org/package=learNN)
+[![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/learNN?color=brightgreen)](http://cran.rstudio.com/package=learNN)
 [![Travis-CI Build Status](https://travis-ci.org/bquast/learNN.svg?branch=master)](https://travis-ci.org/bquast/learNN)
 [![Coverage Status](https://img.shields.io/coveralls/bquast/learNN.svg)](https://coveralls.io/r/bquast/learNN?branch=master)
 

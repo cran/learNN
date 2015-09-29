@@ -2,6 +2,7 @@
 
 export(learn_bp)
 export(learn_bp11)
+export(learn_do)
 export(learn_do15)
 export(learn_gd)
 export(learn_gd13)

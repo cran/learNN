@@ -32,5 +32,8 @@ learn_bp(X, y)
 }
 \references{
 \url{http://qua.st/handcoding-neural-network/}
+
+\url{http://qua.st/handcoding-neural-network/}
+\url{http://iamtrask.github.io/2015/07/12/basic-python-network/}
 }
 

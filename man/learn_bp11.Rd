@@ -28,5 +28,9 @@ syn1
 }
 \references{
 \url{http://qua.st/handcoding-neural-network/}
+\url{http://iamtrask.github.io/2015/07/12/basic-python-network/}
+}
+\seealso{
+\code{\link{learn_bp}}
 }
 
